@@ -1,0 +1,199 @@
+﻿/* Generic styes for the page, NOT for the Page Panel */
+ body {
+    margin:0;
+    padding:0;
+    font:normal 14px Arial;
+    background-color:#ccc;
+     color:#000;
+}
+ header {
+	font-size: 18px;
+	background: #213f5a;
+	line-height: 60px;
+	height: 60px;
+	position: absolute;
+	border-bottom: 3px solid #FFFFFF;
+	overflow: hidden;
+	width: 935px;
+	margin-left: 45px;
+	margin-top: 40px;
+	clear: both;
+	color: #fff;
+	left: -1px;
+	top: 0px;
+	font-family: arial;
+	padding: 5px 0px 0px 5px;
+	background-color: #213f5a;
+	text-align: left;
+}
+  a:link {
+    color: #fce913;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FCE913;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ECECEC;
+}
+
+ logo {
+    float: left;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-size: 17px;
+    border: none;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 0;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+}
+ header a {
+    font-size: 14px;
+    line-height: 50px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-decoration: none;
+    transition: all 0.4s;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: solid 1px #ccc;
+}
+
+ #top-nav a:first-child{
+     border-left:1px solid #ccc;
+}
+ #vertical-nav a {
+     display: block;
+     text-align: left;
+     font: bold 14px Tahoma, Geneva, sans-serif;
+     text-decoration: none;
+     color: #FFFFFF;
+     -webkit-transition: color 0.2s;
+     padding: 10px;
+     transition: color 0.22s;
+}
+ #vertical-nav a.active, #vertical-nav a:hover {
+     color: #D3D3D3;
+}
+ .maincontentbx{
+    width: 940px;
+    margin-left: 43px;
+    margin-bottom: 0;
+    padding-right: 5px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 80px;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+ .donate-now {
+     list-style-type: none;
+     margin: 10px 0 0 0;
+     padding: 0;
+}
+ .donate-now li {
+     float: left;
+     margin: 0 25px 0 0;
+     width: 30px;
+     height: 30px;
+     position: relative;
+     text-align: center;
+}
+ .donate-now label, .donate-now input {
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+ .donate-now input[type="radio"] {
+     opacity: 0.01;
+     z-index: 100;
+}
+ .donate-now input[type="radio"]:checked+label, .Checked+label {
+     color: #FFFFFF 
+}
+ .donate-now label {
+     padding: 5px;
+     border: 1px solid #CCC;
+     cursor: pointer;
+     z-index: 90;
+}
+ .donate-now label:hover {
+     background: #3A1E3C;
+     color: #fff;
+}
+ .Title {
+     margin: 0 0 var(--gutterXx) 0;
+     padding: 0;
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     line-height: var(--lineHeightSm);
+     text-align: center;
+     text-shadow: 0px 0px;
+}
+ .Title2 {
+     padding: 0;
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: center;
+}
+ .txtbxs {
+     display: inline-block;
+     -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+     box-sizing: content-box;
+     width: 500px;
+     height: 20px;
+     padding: 10px 20px 5px 10px;
+     border: 1px solid #b7b7b7;
+     -webkit-border-radius: 3px;
+     border-radius: 3px;
+     font: normal 18px/normal Arial, Helvetica, sans-serif;
+     color: rgba(0, 142, 198, 1);
+     -o-text-overflow: clip;
+     text-overflow: clip;
+     background: rgba(252, 252, 252, 1);
+     -webkit-box-shadow: 2px 1px 2px 0 rgba(220, 220, 220, 1);
+     box-shadow: 2px 1px 2px 0 rgba(220, 220, 220, 1);
+     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+     -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+     -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+     -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+     margin-left: 20px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     margin-right: 5px;
+}
+ a:link {
+    color: #fce913;
+    font-size: 18px;
+}
+/* visited link */
+ a:visited {
+    color: #FCE913;
+}
+/* mouse over link */
+ a:hover {
+    color: #ececec;
+    font-size: 18px;
+}
+a.innerlinks:link,
+a.innerlinks:visited,
+a.innerlinks:active { color: #fce913; text-decoration: none; font-size: 18px; }
+a.innerlinks:hover { color: #ececec; text-decoration: none; font-size: 18px; }

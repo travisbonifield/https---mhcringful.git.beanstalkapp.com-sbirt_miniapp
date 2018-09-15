@@ -1,0 +1,452 @@
+<!--[if lt IE 9]><script src="https://cdn.jotfor.ms/js/vendor/flashcanvas.js?3.3.7519" type="text/javascript"></script><![endif]-->
+<script src="https://cdn.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.7519" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/jSignature.min.noconflict.js?3.3.7519" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/jotform.signaturepad.js?3.3.7519" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.7519" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.init(function(){
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("8", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("8", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("11", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("11", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+      JotForm.alterTexts(undefined);
+	JotForm.clearFieldOnHide="disable";
+	JotForm.submitError="jumpToFirstError";
+    /*INIT-END*/
+});
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"heading","qid":"1","text":"Consent Form","type":"control_head"},null,{"name":"clickTo","qid":"3","text":"RESEARCH STUDY CONSENT FORM\nTechnologically-Augmented Referrals to Mitigate Addiction Consequences (TARMAC)\nResearchers:\nPrincipal Investigator: Sterling McPherson, PhD\nCo-Investigators: Michael Yuan, PhD, Kim Johnson; Barb Richardson, PhD; Mathew Layton, MD, PhD\nIntroduction\nYou are being asked to take part in a research study led by Dr. McPherson. This form explains the research study and your part in it, if you decide to join the study. Please read the form carefully, taking as much time as you need. Ask the researcher to explain anything you don&rsquo;t understand. You can decide not to join the study. If you join the study, you can change your mind later or quit at any time. There will be no penalty or loss of services or benefits if you decide to not take part in the study or quit later. This study has been approved for human subject participation by the Washington State University Institutional Review Board.\nWhat is this study about?\nThis research is to evaluate why screening and intervention for substance use disorders in the primary care setting has faced several challenges. In the past, physicians have cited barriers such as lack of time, lack of access to treatment, and lack of financial resources.\nTo overcome some of these barriers, many researchers have begun to explore novel approaches using web-based and mobile technology. There is promising research to show that interventions using web-based or mobile technology for alcohol and other substance abuse can be effective.\nOur research team is asking you to take part because you are older than 21 years of age and are a patient at a CHAS clinic. You cannot be in the study if you are under 21 years of age.\nIf you decide to take part, there will be a couple of questions for you after filling out this consent form. Then we will randomly put you into one of two groups. The Technology Augmented Treatment group or the Control group.\nToday&rsquo;s visit will last about 30 minutes. The total time this study should take is less than 2 hours in one month&rsquo;s time. If you complete the baseline (first) visit, you will earn a $50 gift card for your time.\nProcedures\nWhat will I be asked to do if I am in this study?\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; We will ask you to fill out questionnaires.\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; We will randomly place you (by chance, like flipping a coin) in one of two groups. The researchers have no control over what group you will be in. You will have an equal chance of being placed in either of the two study groups. No matter what group you are in, you will receive the same amount in gift cards.\nTechnology Augmented Treatment group:\nThis group will answer questions on an IPAD we provide during today&rsquo;s baseline visit. We will then show you a video. Your provider may suggest treatment. You will receive a $50 gift card to thank you for your time.\nAfter your visit, we will send follow up texts asking about your health and if you have received treatment, for 30 days.\nAfter those 30 days, a researcher will contact you to ask you to meet during one of your appointments to fill out more questionnaires. You will receive another $50 gift card to thank you for your time.\n-OR-&nbsp; The standard of care (control) group:\nThis group will answer questions on a piece of paper. Your provider may suggest treatment. You will receive a $50 gift card to thank you for your time.\nAfter your visit, we will send you follow up texts for 30 days asking you about your health and if you have received treatment.\nAfter those 30 days, a researcher will contact you to ask you to meet during one of your appointments to fill out more questionnaires. You will receive another $50 gift card to thank you for your time.\nAre there any benefits to me if I am in this study?\nThere are no direct benefits for being in this study. We hope that the results from this study will help develop better treatment strategies for people.\nAre there any risks to me if I am in this study?\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;There is a small risk that information you provide to the study will be seen by someone who is not supposed to see it. We will lower this risk by assigning all data you provide with a unique ID number instead of your name.\nWe may ask you some questions about your personal habits and history that make you feel uncomfortable. You may refuse to answer any questions you feel uncomfortable.\nResearchers may contact 911 or Dr. Layton, the medical doctor on the research team, should a medical issue arise during the study, depending on the severity of the reported issue. There will be no cost for you for Dr. Layton&rsquo;s services. \nWill my information be kept private?\nYes. The data for this study will be kept confidential to the extent allowed by federal, state, and other applicable law. We will assign all participants a unique ID number that we store separately from personal information. We will use this number on all data collection materials. We will keep all recorded data in a locked file cabinet in a locked research office that is only accessible by members of the research team. The data for this study will be kept for 3 years.\nIf keeping information private would immediately put you or someone else in danger, we will release information to keep you or the other person safe. If we learn about abuse to a child or an elder, we will report that information to the proper authorities. Also, if we do not follow the safety procedures described in this consent form, security or local police may be notified.\nAre there any costs or payments for being in this study?\nThere is no cost to you to take part in this study. There are free parking spots outside of the facility for study visits. If you choose to participate, you will have the opportunity to receive up to two $50 gift cards.\n&nbsp;\nWho can I talk to if I have questions?\nIf you have questions about this study or the information in this form, please contact the lead researcher, Dr. Sterling McPherson at PO BOX 1495 Spokane, WA 99210-1495; 509-324-7459; sterling.mcpherson@wsu.edu.\nWhat are my rights as a research study volunteer?\nMy participation in this study is completely voluntary and it will not waive any of my rights. I may choose not to be a part of this study. There will be no penalty if I choose not to take part. I may choose not to answer specific questions and may stop taking part at any time.\n&nbsp;\nI understand that my substance use disorder records are protected under the federal regulations governing Confidentiality and Substance Use Disorder Patient Records, 42 C.F.R. Part 2, and the Health Insurance Portability and Accountability Act of 1996 (&ldquo;HIPAA&rdquo;), 45 C.F.R. pts. 160 &amp; 164. My medical records cannot be shared with anyone without my written consent unless otherwise provided for by the regulations.\nI understand that I may change my mind about allowing the researchers to see my substance use disorder records at any time, unless they saw my records before I changed my mind.\nAgreeing to show my records to the research team allows me to be in this study where I may receive treatment, gift cards and/or other health care related procedures. If I do not want to sign this consent form, I may not have access to the treatment and gift cards provided by this study. I will not be denied these services if I refuse to consent to any other disclosure NOT related to this study.\n&nbsp;&nbsp;","type":"control_text"},{"name":"pageBreak","qid":"4","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"signature","qid":"5","subLabel":"","text":"Signature of Participant\t","type":"control_signature"},{"description":"","name":"signatureOf","qid":"6","subLabel":"","text":"Signature of Person Obtaining Consent","type":"control_signature"},{"name":"clickTo7","qid":"7","text":"What does my signature on this consent form mean?\nMy signature on this form means that:\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; I understand the information given to me in this form\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; I have been able to ask the researcher questions and tell them any concerns\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; The researcher has responded to my questions and concerns\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; I believe I understand the research study and the potential benefits and risks that are involved.\nStatement of Consent\nI give my voluntary consent to take part in this study. I will be given a copy of this consent document for my records.","type":"control_text"},{"description":"","name":"date","qid":"8","text":"Date","type":"control_datetime"},{"description":"","name":"printedName","qid":"9","subLabel":"","text":"Printed Name","type":"control_textbox"},{"name":"clickTo10","qid":"10","text":"Statement of Person Obtaining Informed Consent\nI have carefully explained to the person taking part in the study what he or she can expect.\nI certify that when this person signs this form, to the best of my knowledge, he or she understands the purpose, procedures, potential benefits, and potential risks of participation.\nI also certify that he or she:\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; Speaks the language used to explain this research\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; Reads well enough to understand this form or, if not, this person is able to hear and understand when the form is read to him or her\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; Does not have any problems that could make it hard to understand what it means to take part in this research.","type":"control_text"},{"description":"","name":"date11","qid":"11","text":"Date","type":"control_datetime"},{"description":"","name":"printedName12","qid":"12","subLabel":"","text":"Printed Name","type":"control_textbox"},{"description":"","name":"roleIn","qid":"13","subLabel":"","text":"Role in the Research Study","type":"control_textbox"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Consent Form","type":"control_head"},null,{"name":"clickTo","qid":"3","text":"RESEARCH STUDY CONSENT FORM\nTechnologically-Augmented Referrals to Mitigate Addiction Consequences (TARMAC)\nResearchers:\nPrincipal Investigator: Sterling McPherson, PhD\nCo-Investigators: Michael Yuan, PhD, Kim Johnson; Barb Richardson, PhD; Mathew Layton, MD, PhD\nIntroduction\nYou are being asked to take part in a research study led by Dr. McPherson. This form explains the research study and your part in it, if you decide to join the study. Please read the form carefully, taking as much time as you need. Ask the researcher to explain anything you don&rsquo;t understand. You can decide not to join the study. If you join the study, you can change your mind later or quit at any time. There will be no penalty or loss of services or benefits if you decide to not take part in the study or quit later. This study has been approved for human subject participation by the Washington State University Institutional Review Board.\nWhat is this study about?\nThis research is to evaluate why screening and intervention for substance use disorders in the primary care setting has faced several challenges. In the past, physicians have cited barriers such as lack of time, lack of access to treatment, and lack of financial resources.\nTo overcome some of these barriers, many researchers have begun to explore novel approaches using web-based and mobile technology. There is promising research to show that interventions using web-based or mobile technology for alcohol and other substance abuse can be effective.\nOur research team is asking you to take part because you are older than 21 years of age and are a patient at a CHAS clinic. You cannot be in the study if you are under 21 years of age.\nIf you decide to take part, there will be a couple of questions for you after filling out this consent form. Then we will randomly put you into one of two groups. The Technology Augmented Treatment group or the Control group.\nToday&rsquo;s visit will last about 30 minutes. The total time this study should take is less than 2 hours in one month&rsquo;s time. If you complete the baseline (first) visit, you will earn a $50 gift card for your time.\nProcedures\nWhat will I be asked to do if I am in this study?\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; We will ask you to fill out questionnaires.\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; We will randomly place you (by chance, like flipping a coin) in one of two groups. The researchers have no control over what group you will be in. You will have an equal chance of being placed in either of the two study groups. No matter what group you are in, you will receive the same amount in gift cards.\nTechnology Augmented Treatment group:\nThis group will answer questions on an IPAD we provide during today&rsquo;s baseline visit. We will then show you a video. Your provider may suggest treatment. You will receive a $50 gift card to thank you for your time.\nAfter your visit, we will send follow up texts asking about your health and if you have received treatment, for 30 days.\nAfter those 30 days, a researcher will contact you to ask you to meet during one of your appointments to fill out more questionnaires. You will receive another $50 gift card to thank you for your time.\n-OR-&nbsp; The standard of care (control) group:\nThis group will answer questions on a piece of paper. Your provider may suggest treatment. You will receive a $50 gift card to thank you for your time.\nAfter your visit, we will send you follow up texts for 30 days asking you about your health and if you have received treatment.\nAfter those 30 days, a researcher will contact you to ask you to meet during one of your appointments to fill out more questionnaires. You will receive another $50 gift card to thank you for your time.\nAre there any benefits to me if I am in this study?\nThere are no direct benefits for being in this study. We hope that the results from this study will help develop better treatment strategies for people.\nAre there any risks to me if I am in this study?\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;There is a small risk that information you provide to the study will be seen by someone who is not supposed to see it. We will lower this risk by assigning all data you provide with a unique ID number instead of your name.\nWe may ask you some questions about your personal habits and history that make you feel uncomfortable. You may refuse to answer any questions you feel uncomfortable.\nResearchers may contact 911 or Dr. Layton, the medical doctor on the research team, should a medical issue arise during the study, depending on the severity of the reported issue. There will be no cost for you for Dr. Layton&rsquo;s services. \nWill my information be kept private?\nYes. The data for this study will be kept confidential to the extent allowed by federal, state, and other applicable law. We will assign all participants a unique ID number that we store separately from personal information. We will use this number on all data collection materials. We will keep all recorded data in a locked file cabinet in a locked research office that is only accessible by members of the research team. The data for this study will be kept for 3 years.\nIf keeping information private would immediately put you or someone else in danger, we will release information to keep you or the other person safe. If we learn about abuse to a child or an elder, we will report that information to the proper authorities. Also, if we do not follow the safety procedures described in this consent form, security or local police may be notified.\nAre there any costs or payments for being in this study?\nThere is no cost to you to take part in this study. There are free parking spots outside of the facility for study visits. If you choose to participate, you will have the opportunity to receive up to two $50 gift cards.\n&nbsp;\nWho can I talk to if I have questions?\nIf you have questions about this study or the information in this form, please contact the lead researcher, Dr. Sterling McPherson at PO BOX 1495 Spokane, WA 99210-1495; 509-324-7459; sterling.mcpherson@wsu.edu.\nWhat are my rights as a research study volunteer?\nMy participation in this study is completely voluntary and it will not waive any of my rights. I may choose not to be a part of this study. There will be no penalty if I choose not to take part. I may choose not to answer specific questions and may stop taking part at any time.\n&nbsp;\nI understand that my substance use disorder records are protected under the federal regulations governing Confidentiality and Substance Use Disorder Patient Records, 42 C.F.R. Part 2, and the Health Insurance Portability and Accountability Act of 1996 (&ldquo;HIPAA&rdquo;), 45 C.F.R. pts. 160 &amp; 164. My medical records cannot be shared with anyone without my written consent unless otherwise provided for by the regulations.\nI understand that I may change my mind about allowing the researchers to see my substance use disorder records at any time, unless they saw my records before I changed my mind.\nAgreeing to show my records to the research team allows me to be in this study where I may receive treatment, gift cards and/or other health care related procedures. If I do not want to sign this consent form, I may not have access to the treatment and gift cards provided by this study. I will not be denied these services if I refuse to consent to any other disclosure NOT related to this study.\n&nbsp;&nbsp;","type":"control_text"},{"name":"pageBreak","qid":"4","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"signature","qid":"5","subLabel":"","text":"Signature of Participant\t","type":"control_signature"},{"description":"","name":"signatureOf","qid":"6","subLabel":"","text":"Signature of Person Obtaining Consent","type":"control_signature"},{"name":"clickTo7","qid":"7","text":"What does my signature on this consent form mean?\nMy signature on this form means that:\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; I understand the information given to me in this form\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; I have been able to ask the researcher questions and tell them any concerns\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; The researcher has responded to my questions and concerns\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; I believe I understand the research study and the potential benefits and risks that are involved.\nStatement of Consent\nI give my voluntary consent to take part in this study. I will be given a copy of this consent document for my records.","type":"control_text"},{"description":"","name":"date","qid":"8","text":"Date","type":"control_datetime"},{"description":"","name":"printedName","qid":"9","subLabel":"","text":"Printed Name","type":"control_textbox"},{"name":"clickTo10","qid":"10","text":"Statement of Person Obtaining Informed Consent\nI have carefully explained to the person taking part in the study what he or she can expect.\nI certify that when this person signs this form, to the best of my knowledge, he or she understands the purpose, procedures, potential benefits, and potential risks of participation.\nI also certify that he or she:\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; Speaks the language used to explain this research\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; Reads well enough to understand this form or, if not, this person is able to hear and understand when the form is read to him or her\n&middot;&nbsp;&nbsp;&nbsp;&nbsp; Does not have any problems that could make it hard to understand what it means to take part in this research.","type":"control_text"},{"description":"","name":"date11","qid":"11","text":"Date","type":"control_datetime"},{"description":"","name":"printedName12","qid":"12","subLabel":"","text":"Printed Name","type":"control_textbox"},{"description":"","name":"roleIn","qid":"13","subLabel":"","text":"Role in the Research Study","type":"control_textbox"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.7519" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.7519" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.7519" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?themeRevisionID=59fb4852cf3bfe589c6c6f21"/>
+<style type="text/css">
+    .form-label-left{
+        width:500px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:500px;
+    }
+    .form-all{
+        width:1280px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-header-group {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-label {
+      font-family: Lucida Grande, sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: block;
+    float: none;
+    text-align: left;
+    width: 100%;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  
+    .form-all {
+      width: 1280px;
+    }
+  
+    .form-label-left,
+    .form-label-right,
+    .form-label-left.form-label-auto,
+    .form-label-right.form-label-auto {
+      width: 500px;
+    }
+  
+    .form-all {
+      font-size: 14px
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 14px
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 14px
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: #fff;
+      border: 1px solid transparent;
+    }
+  
+    .form-all {
+      color: #555;
+    }
+    .form-header-group .form-header {
+      color: #555;
+    }
+    .form-header-group .form-subHeader {
+      color: #555;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: #555;
+    }
+    .form-sub-label {
+      color: #6f6f6f;
+    }
+  
+    .supernova {
+      background-color: undefined;
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: undefined;
+    }
+  
+    .supernova {
+      background-image: none;
+    }
+    #stage {
+      background-image: none;
+    }
+  
+    .form-all {
+      background-image: none;
+    }
+  
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+  
+  /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */
+</style>
+
+<form class="jotform-form" action="https://submit.jotform.us/submit/82551195484160/" method="post" name="form_82551195484160" id="82551195484160" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="82551195484160" />
+  <div class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group ">
+          <div class="header-text httal htvam">
+            <h2 id="header_1" class="form-header" data-component="header">
+              Consent Form
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_3">
+        <div id="cid_3" class="form-input-wide">
+          <div id="text_3" class="form-html" data-component="text">
+            <p>RESEARCH STUDY CONSENT FORM</p>
+            <p>Technologically-Augmented Referrals to Mitigate Addiction Consequences (TARMAC)</p>
+            <p>Researchers:</p>
+            <p>Principal Investigator: Sterling McPherson, PhD</p>
+            <p>Co-Investigators: Michael Yuan, PhD, Kim Johnson; Barb Richardson, PhD; Mathew Layton, MD, PhD</p>
+            <p>Introduction</p>
+            <p>You are being asked to take part in a research study led by Dr. McPherson. This form explains the research study and your part in it, if you decide to join the study. Please read the form carefully, taking as much time as you need. Ask the researcher to explain anything you don’t understand. You can decide not to join the study. If you join the study, you can change your mind later or quit at any time. There will be no penalty or loss of services or benefits if you decide to not take part in the study or quit later. This study has been approved for human subject participation by the Washington State University Institutional Review Board.</p>
+            <p>What is this study about?</p>
+            <p>This research is to evaluate why screening and intervention for substance use disorders in the primary care setting has faced several challenges. In the past, physicians have cited barriers such as lack of time, lack of access to treatment, and lack of financial resources.</p>
+            <p>To overcome some of these barriers, many researchers have begun to explore novel approaches using web-based and mobile technology. There is promising research to show that interventions using web-based or mobile technology for alcohol and other substance abuse can be effective.</p>
+            <p>Our research team is asking you to take part because you are older than 21 years of age and are a patient at a CHAS clinic. You cannot be in the study if you are under 21 years of age.</p>
+            <p>If you decide to take part, there will be a couple of questions for you after filling out this consent form. Then we will randomly put you into one of two groups. The Technology Augmented Treatment group or the Control group.</p>
+            <p>Today’s visit will last about 30 minutes. The total time this study should take is less than 2 hours in one month’s time. If you complete the baseline (first) visit, you will earn a $50 gift card for your time.</p>
+            <p>Procedures</p>
+            <p>What will I be asked to do if I am in this study?</p>
+            <p>·     We will ask you to fill out questionnaires.</p>
+            <p>·     We will randomly place you (by chance, like flipping a coin) in one of two groups. The researchers have no control over what group you will be in. You will have an equal chance of being placed in either of the two study groups. No matter what group you are in, you will receive the same amount in gift cards.</p>
+            <p>Technology Augmented Treatment group:</p>
+            <p>This group will answer questions on an IPAD we provide during today’s baseline visit. We will then show you a video. Your provider may suggest treatment. You will receive a $50 gift card to thank you for your time.</p>
+            <p>After your visit, we will send follow up texts asking about your health and if you have received treatment, for 30 days.</p>
+            <p>After those 30 days, a researcher will contact you to ask you to meet during one of your appointments to fill out more questionnaires. You will receive another $50 gift card to thank you for your time.</p>
+            <p>-OR-  The standard of care (control) group:</p>
+            <p>This group will answer questions on a piece of paper. Your provider may suggest treatment. You will receive a $50 gift card to thank you for your time.</p>
+            <p>After your visit, we will send you follow up texts for 30 days asking you about your health and if you have received treatment.</p>
+            <p>After those 30 days, a researcher will contact you to ask you to meet during one of your appointments to fill out more questionnaires. You will receive another $50 gift card to thank you for your time.</p>
+            <p>Are there any benefits to me if I am in this study?</p>
+            <p>There are no direct benefits for being in this study. We hope that the results from this study will help develop better treatment strategies for people.</p>
+            <p>Are there any risks to me if I am in this study?</p>
+            <p>·       There is a small risk that information you provide to the study will be seen by someone who is not supposed to see it. We will lower this risk by assigning all data you provide with a unique ID number instead of your name.</p>
+            <p>We may ask you some questions about your personal habits and history that make you feel uncomfortable. You may refuse to answer any questions you feel uncomfortable.</p>
+            <p>Researchers may contact 911 or Dr. Layton, the medical doctor on the research team, should a medical issue arise during the study, depending on the severity of the reported issue. There will be no cost for you for Dr. Layton’s services. </p>
+            <p>Will my information be kept private?</p>
+            <p>Yes. The data for this study will be kept confidential to the extent allowed by federal, state, and other applicable law. We will assign all participants a unique ID number that we store separately from personal information. We will use this number on all data collection materials. We will keep all recorded data in a locked file cabinet in a locked research office that is only accessible by members of the research team. The data for this study will be kept for 3 years.</p>
+            <p>If keeping information private would immediately put you or someone else in danger, we will release information to keep you or the other person safe. If we learn about abuse to a child or an elder, we will report that information to the proper authorities. Also, if we do not follow the safety procedures described in this consent form, security or local police may be notified.</p>
+            <p>Are there any costs or payments for being in this study?</p>
+            <p>There is no cost to you to take part in this study. There are free parking spots outside of the facility for study visits. If you choose to participate, you will have the opportunity to receive up to two $50 gift cards.</p>
+            <p> </p>
+            <p>Who can I talk to if I have questions?</p>
+            <p>If you have questions about this study or the information in this form, please contact the lead researcher, Dr. Sterling McPherson at PO BOX 1495 Spokane, WA 99210-1495; 509-324-7459; sterling.mcpherson@wsu.edu.</p>
+            <p>What are my rights as a research study volunteer?</p>
+            <p>My participation in this study is completely voluntary and it will not waive any of my rights. I may choose not to be a part of this study. There will be no penalty if I choose not to take part. I may choose not to answer specific questions and may stop taking part at any time.</p>
+            <p> </p>
+            <p>I understand that my substance use disorder records are protected under the federal regulations governing Confidentiality and Substance Use Disorder Patient Records, 42 C.F.R. Part 2, and the Health Insurance Portability and Accountability Act of 1996 (“HIPAA”), 45 C.F.R. pts. 160 &amp; 164. My medical records cannot be shared with anyone without my written consent unless otherwise provided for by the regulations.</p>
+            <p>I understand that I may change my mind about allowing the researchers to see my substance use disorder records at any time, unless they saw my records before I changed my mind.</p>
+            <p>Agreeing to show my records to the research team allows me to be in this study where I may receive treatment, gift cards and/or other health care related procedures. If I do not want to sign this consent form, I may not have access to the treatment and gift cards provided by this study. I will not be denied these services if I refuse to consent to any other disclosure NOT related to this study.</p>
+            <p>  </p>
+          </div>
+        </div>
+      </li>
+      <li id="cid_4" class="form-input-wide" data-type="control_pagebreak">
+        <div class="form-pagebreak" data-component="pagebreak">
+          <div class="form-pagebreak-back-container">
+            <button id="form-pagebreak-back_4" type="button" class="form-pagebreak-back " data-component="pagebreak-back">
+              Back
+            </button>
+          </div>
+          <div class="form-pagebreak-next-container">
+            <button id="form-pagebreak-next_4" type="button" class="form-pagebreak-next " data-component="pagebreak-next">
+              Next
+            </button>
+          </div>
+          <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_4">
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="form-section page-section" style="display:none;">
+      <li class="form-line" data-type="control_text" id="id_7">
+        <div id="cid_7" class="form-input-wide">
+          <div id="text_7" class="form-html" data-component="text">
+            <p>What does my signature on this consent form mean?</p>
+            <p>My signature on this form means that:</p>
+            <p>·     I understand the information given to me in this form</p>
+            <p>·     I have been able to ask the researcher questions and tell them any concerns</p>
+            <p>·     The researcher has responded to my questions and concerns</p>
+            <p>·     I believe I understand the research study and the potential benefits and risks that are involved.</p>
+            <p>Statement of Consent</p>
+            <p>I give my voluntary consent to take part in this study. I will be given a copy of this consent document for my records.</p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_signature" id="id_5">
+        <label class="form-label form-label-top form-label-auto" id="label_5" for="input_5"> Signature of Participant </label>
+        <div id="cid_5" class="form-input-wide">
+          <div data-wrapper-react="true">
+            <div id="signature_pad_5" class="signature-pad-wrapper" style="width:402px;height:202px">
+              <div data-wrapper-react="true">
+                <!--[if IE 7]>
+                  <script type="text/javascript" src="/js/vendor/json2.js"></script>
+                <![endif]-->
+              </div>
+              <div class="signature-line signature-wrapper" data-component="signature" style="width:402px;height:202px">
+                <div id="sig_pad_5" data-width="400" data-height="200" data-id="5" data-required="false" class="pad">
+                </div>
+                <input type="hidden" name="q5_signature" class="output4" id="input_5" />
+              </div>
+              <span class="clear-pad-btn clear-pad">
+                Clear
+              </span>
+            </div>
+            <div data-wrapper-react="true">
+              <script type="text/javascript">
+              window.signatureForm = true
+              </script>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_datetime" id="id_8">
+        <label class="form-label form-label-top form-label-auto" id="label_8" for="lite_mode_8"> Date </label>
+        <div id="cid_8" class="form-input-wide">
+          <div data-wrapper-react="true">
+            <div style="display:none">
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[limitDate]" id="month_8" name="q8_date[month]" size="2" data-maxlength="2" value="" />
+                <span class="date-separate">
+                   /
+                </span>
+                <label class="form-sub-label" for="month_8" id="sublabel_month" style="min-height:13px"> Month </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[limitDate]" id="day_8" name="q8_date[day]" size="2" data-maxlength="2" value="" />
+                <span class="date-separate">
+                   /
+                </span>
+                <label class="form-sub-label" for="day_8" id="sublabel_day" style="min-height:13px"> Day </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[limitDate]" id="year_8" name="q8_date[year]" size="4" data-maxlength="4" value="" />
+                <label class="form-sub-label" for="year_8" id="sublabel_year" style="min-height:13px"> Year </label>
+              </span>
+            </div>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" class="form-textbox validate[limitDate, validateLiteDate]" id="lite_mode_8" size="12" data-maxlength="12" data-age="" value="" data-format="mmddyyyy" data-seperator="/" placeholder="mm/dd/yyyy" />
+              <label class="form-sub-label" for="lite_mode_8" id="sublabel_litemode" style="min-height:13px"> Date </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <img class="showAutoCalendar" alt="Pick a Date" id="input_8_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle" data-component="datetime" />
+              <label class="form-sub-label" for="input_8_pick" style="min-height:13px">  </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_9">
+        <label class="form-label form-label-top form-label-auto" id="label_9" for="input_9"> Printed Name </label>
+        <div id="cid_9" class="form-input-wide">
+          <input type="text" id="input_9" name="q9_printedName" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_10">
+        <div id="cid_10" class="form-input-wide">
+          <div id="text_10" class="form-html" data-component="text">
+            <p>Statement of Person Obtaining Informed Consent</p>
+            <p>I have carefully explained to the person taking part in the study what he or she can expect.</p>
+            <p>I certify that when this person signs this form, to the best of my knowledge, he or she understands the purpose, procedures, potential benefits, and potential risks of participation.</p>
+            <p>I also certify that he or she:</p>
+            <p>·     Speaks the language used to explain this research</p>
+            <p>·     Reads well enough to understand this form or, if not, this person is able to hear and understand when the form is read to him or her</p>
+            <p>·     Does not have any problems that could make it hard to understand what it means to take part in this research.</p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_signature" id="id_6">
+        <label class="form-label form-label-top form-label-auto" id="label_6" for="input_6"> Signature of Person Obtaining Consent </label>
+        <div id="cid_6" class="form-input-wide">
+          <div data-wrapper-react="true">
+            <div id="signature_pad_6" class="signature-pad-wrapper" style="width:402px;height:202px">
+              <div data-wrapper-react="true">
+                <!--[if IE 7]>
+                  <script type="text/javascript" src="/js/vendor/json2.js"></script>
+                <![endif]-->
+              </div>
+              <div class="signature-line signature-wrapper" data-component="signature" style="width:402px;height:202px">
+                <div id="sig_pad_6" data-width="400" data-height="200" data-id="6" data-required="false" class="pad">
+                </div>
+                <input type="hidden" name="q6_signatureOf" class="output4" id="input_6" />
+              </div>
+              <span class="clear-pad-btn clear-pad">
+                Clear
+              </span>
+            </div>
+            <div data-wrapper-react="true">
+              <script type="text/javascript">
+              window.signatureForm = true
+              </script>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_datetime" id="id_11">
+        <label class="form-label form-label-top form-label-auto" id="label_11" for="lite_mode_11"> Date </label>
+        <div id="cid_11" class="form-input-wide">
+          <div data-wrapper-react="true">
+            <div style="display:none">
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[limitDate]" id="month_11" name="q11_date11[month]" size="2" data-maxlength="2" value="" />
+                <span class="date-separate">
+                   -
+                </span>
+                <label class="form-sub-label" for="month_11" id="sublabel_month" style="min-height:13px"> Month </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[limitDate]" id="day_11" name="q11_date11[day]" size="2" data-maxlength="2" value="" />
+                <span class="date-separate">
+                   -
+                </span>
+                <label class="form-sub-label" for="day_11" id="sublabel_day" style="min-height:13px"> Day </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="tel" class="form-textbox validate[limitDate]" id="year_11" name="q11_date11[year]" size="4" data-maxlength="4" value="" />
+                <label class="form-sub-label" for="year_11" id="sublabel_year" style="min-height:13px"> Year </label>
+              </span>
+            </div>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" class="form-textbox validate[limitDate, validateLiteDate]" id="lite_mode_11" size="12" data-maxlength="12" data-age="" value="" data-format="mmddyyyy" data-seperator="-" placeholder="mm-dd-yyyy" />
+              <label class="form-sub-label" for="lite_mode_11" id="sublabel_litemode" style="min-height:13px"> Date </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <img alt="Pick a Date" id="input_11_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle" data-component="datetime" />
+              <label class="form-sub-label" for="input_11_pick" style="min-height:13px">  </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_12">
+        <label class="form-label form-label-top form-label-auto" id="label_12" for="input_12"> Printed Name </label>
+        <div id="cid_12" class="form-input-wide">
+          <input type="text" id="input_12" name="q12_printedName12" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_13">
+        <label class="form-label form-label-top form-label-auto" id="label_13" for="input_13"> Role in the Research Study </label>
+        <div id="cid_13" class="form-input-wide">
+          <input type="text" id="input_13" name="q13_roleIn" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" />
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "old_footer";
+  </script>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="82551195484160" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "82551195484160-82551195484160";
+  </script>
+</form>
+<script type="text/javascript">JotForm.ownerView=true;</script>
